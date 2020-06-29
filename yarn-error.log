@@ -1,0 +1,63 @@
+Arguments: 
+  F:\Program Files\nodejs\node.exe C:\Users\kashish\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add gh-pages
+
+PATH: 
+  C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\kashish\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\libnvvp;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.0\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.0\libnvvp;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;E:\cudnn-10.0-windows10-x64-v7.3.0.29\cuda\bin;E:\Anaconda3\envs\tensorflow\Library\bin\graphviz;E:\Anaconda3\Library\bin\graphviz;F:\Program Files\CMake\bin;C:\Android;C:\Windows\System32;E:\Python\Python36\Scripts;E:\Python\Python36;C:\Users\kashish\AppData\Local\Microsoft\WindowsApps;E:\cudnn-9.0-windows10-x64-v7.3.0.29\cuda\bin;E:\cudnn-9.0-windows10-x64-v7.3.0.29\cuda\include;E:\cudnn-9.0-windows10-x64-v7.3.0.29\cuda\lib;E:\p;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Git\cmd;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;F:\Program Files\nodejs;E:\Python\Python36\Scripts;E:\Python\Python36;C:\Users\kashish\AppData\Local\Microsoft\WindowsApps;E:\cudnn-9.0-windows10-x64-v7.3.0.29\cuda\bin;E:\cudnn-9.0-windows10-x64-v7.3.0.29\cuda\include;E:\cudnn-9.0-windows10-x64-v7.3.0.29\cuda\lib;E:\python\python36\Scripts;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\bin;E:\Anaconda3\envs\tensorflow\Library\bin\graphviz;E:\Anaconda3\Library\bin\graphviz;C:\Users\kashish\Machine Learning CN\LightGBM;C:\Users\kashish\AppData\Local\atom\bin;F:\Users\kashish\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\kashish\AppData\Local\hyper\app-3.0.2\resources\bin;C:\Program Files\heroku\bin;C:\Users\kashish\AppData\Local\Microsoft\WindowsApps;C:\Users\kashish\AppData\Roaming\npm
+
+Yarn version: 
+  1.22.4
+
+Node version: 
+  12.16.2
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/@material-ui/core/-/core-4.10.2.tgz: ESOCKETTIMEDOUT
+      at ClientRequest.<anonymous> (C:\Users\kashish\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141375:19)
+      at Object.onceWrapper (events.js:416:28)
+      at ClientRequest.emit (events.js:310:20)
+      at TLSSocket.emitRequestTimeout (_http_client.js:714:9)
+      at Object.onceWrapper (events.js:416:28)
+      at TLSSocket.emit (events.js:310:20)
+      at TLSSocket.Socket._onTimeout (net.js:479:8)
+      at listOnTimeout (internal/timers.js:549:17)
+      at processTimers (internal/timers.js:492:7)
+
+npm manifest: 
+  {
+    "name": "keeper-app-part-1-starting",
+    "version": "1.0.0",
+    "description": "",
+    "keywords": [],
+    "main": "src/index.js",
+    "dependencies": {
+      "@material-ui/core": "^4.10.2",
+      "@material-ui/icons": "^4.9.1",
+      "react": "16.8.6",
+      "react-dom": "16.8.6",
+      "react-scripts": "^3.4.1"
+    },
+    "devDependencies": {
+      "typescript": "3.3.3"
+    },
+    "scripts": {
+      "start": "react-scripts start",
+      "build": "react-scripts build",
+      "test": "react-scripts test --env=jsdom",
+      "eject": "react-scripts eject"
+    },
+    "browserslist": [
+      ">0.2%",
+      "not dead",
+      "not ie <= 11",
+      "not op_mini all"
+    ]
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
